@@ -1,0 +1,6 @@
+input:valid {
+    color: rgb(15, 128, 0)
+  }
+input:invalid {
+    color: red;
+  }

@@ -1,0 +1,11 @@
+#Limitador{
+    height: 250px;
+    width: 600px;
+    line-height: 1em;
+    overflow-x: hidden;
+     overflow-y: scroll;
+    background-color:rgb(143, 199, 29);
+}
+#Texto{
+    margin: 10px;
+}

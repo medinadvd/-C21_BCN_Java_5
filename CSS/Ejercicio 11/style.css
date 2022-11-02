@@ -1,0 +1,35 @@
+body{ 
+    background-color:rgb(190, 213, 213) ;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0px;
+}
+span{
+    background-color:aqua;
+}
+th{
+    background-color:aqua;
+}
+table{
+    margin-left:auto;
+    margin-right: auto;
+    background-color: bisque;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border: 5px solid black;
+}
+td{
+    padding: 30px;
+    padding-bottom: 2px;
+    padding-top: 5px;
+}
+.Casillas{
+    border-bottom: 3px solid black;
+    border-left: 0.5px solid black;
+}
+.Titulos{
+    font-weight: bold;
+}

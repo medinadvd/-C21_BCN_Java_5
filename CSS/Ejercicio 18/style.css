@@ -1,0 +1,50 @@
+
+.grupo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+
+h2{
+    background-color:coral;
+    clear: both;
+    text-align: center;
+    margin: 20px;
+    margin-top: 20px;
+    font-size: 50px;
+}
+
+.redonda{
+    width: 200px;
+    height: 200px;
+    border-radius: 1000px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.mag{
+    background-color: magenta;
+}
+.turq{
+    background-color: turquoise;
+}
+.yellow{
+    background-color: yellow;
+}
+
+.signo{
+    font-size: 50px;
+    font-weight: bold;
+}
+

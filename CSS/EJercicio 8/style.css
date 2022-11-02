@@ -1,0 +1,17 @@
+body{
+    background-color:bisque;
+}
+h1{
+    color:rgb(220, 20, 20);
+}
+
+p{
+    column-count: 3;
+    column-gap: 80px;
+    column-rule: 4px solid rgb(220, 20, 20);
+}
+
+p::selection{
+    background-color: gray;
+    color:darkblue;
+}

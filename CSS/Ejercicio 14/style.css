@@ -1,0 +1,38 @@
+#cuadrado {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    margin-top: 70px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+    position:fixed;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    background-color: olivedrab;
+    border-radius: 50%;
+    border: 2px solid black;
+    left: 50%;
+}
+
+#c1{
+    top: 45px;
+    margin-left: -275px;
+}
+#c2{
+    top: 45px;
+    margin-left: 225px;
+}
+#c3{
+    top: 545px;
+    margin-left: -275px;
+}
+#c4{
+    top: 545px;
+    margin-left: 225px;
+}
