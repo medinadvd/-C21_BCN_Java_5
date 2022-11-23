@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript Ejercicio 15</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="formulario">
+      <fieldset>
+        <legend>Add item</legend>
+        <input type="button" class="button pr" value="push" onclick="pushEmoji()" />
+        <input type="button" class="button seg" value="unshift" onclick="unshiftEmoji()" />
+        <input type="button" class="button ter" value="insert at" onclick="insertAtEmoji()" />
+        <input
+          type="number"
+          class="num"
+          id="insertNum"
+          min="0"
+          max="0"
+          onkeydown="return false"
+        />
+      </fieldset>
+      <fieldset>
+        <legend>Remove item</legend>
+        <input type="button" class="button pr" value="pop" onclick="popEmoji()" />
+        <input type="button" class="button seg" value="shift" onclick="shiftEmoji()" />
+        <input type="button" class="button ter" value="remove at" onclick="removeAtEmoji()" />
+        <input
+        type="number"
+        class="num"
+        id="deleteNum"
+        min="0"
+        max="0"
+        default="0"
+        onkeydown="return false"
+      />
+      </fieldset>
+      <p id="lista"></p>
+    </div>
+    <script src="main.js" charset="UTF-8"></script>
+  </body>
+</html>

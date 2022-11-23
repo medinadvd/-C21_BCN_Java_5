@@ -1,0 +1,54 @@
+#formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+fieldset {
+  width: fit-content;
+  height: auto;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-color: rgb(149, 149, 149);
+}
+
+.button {
+  height: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 2px;
+  text-align: center;
+  font-size: 15px;
+  border-radius: 10px;
+  border-color: rgb(149, 149, 149);
+  background-color: rgb(226, 226, 226);
+  cursor: pointer;
+}
+
+.pr{
+  width: 70px;
+}
+
+.seg{
+  width: 90px;
+}
+
+.ter{
+  width: 120px;
+}
+
+.num {
+  padding: 5 px;
+  display: inline-block;
+  width: auto;
+  height: 20px;
+  font-size: 18px;
+  margin: 2px;
+  border-color: rgb(226, 226, 226);
+}
+
+p{
+  font-size: 20px;
+  font-weight: bold;
+}

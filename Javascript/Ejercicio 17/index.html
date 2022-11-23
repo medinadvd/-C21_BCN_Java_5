@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Javascript Ejercicio 17</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>🐱‍👤 ¡QUE COMIENCE EL COMBATE! 🐱‍👤</h1>
+  <form id="juego">
+    <input type="radio" id="piedra" name="ppt" value="PIEDRA" /> 
+    <label for="piedra">✊</label>
+    <input type="radio" id="papel" name="ppt"value="PAPEL" /> 
+    <label for="papel">🧻</label>
+    <input type="radio" id="tijera" name="ppt" value="TIJERA" />
+    <label for="tijera">✂</label>
+    <input type="button" id="go" value="GO!!" onclick="jugar()"/>
+  </form>
+  <pre id="log"></pre>
+  <script src="main.js"></script>
+</body>
+
+</html>

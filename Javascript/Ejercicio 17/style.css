@@ -1,0 +1,51 @@
+body {
+    background-image: url("background.jpeg");
+    margin: 30px;
+    margin-left: 150px;
+    font-family: monaco, Consolas, Lucida Console, monospace;
+    font-size: 20px;
+}
+
+#juego {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    background-color: rgb(121, 129, 129, .2);
+}
+
+#go {
+    margin-left: 20px;
+    padding: 5px;
+    font-weight: bold;
+    background-color: brown;
+    color: aliceblue;
+    border: 3px;
+    border-radius: 5px;
+}
+
+h1 {
+    font-family: monaco, Consolas, Lucida Console, monospace;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    width: 450px;
+}
+
+input {
+    margin-left: 20px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    width: 450px;
+    background-color: rgb(121, 129, 129, .3);
+    font-weight: bolder;
+}
+
+.final{
+    background-color: rgb(165, 42, 42, .8);
+    color: aliceblue;
+    font-weight: bold;
+}
